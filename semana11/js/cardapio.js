@@ -17,8 +17,7 @@ function initFoodsCard() {
 function createFoodCardItem(item) {
     const image = item.image || './images/product_default.png'
     const view = `<div class="col-3 card my-1 mx-1 py-1">
-                    <img src="${image}" class="card-img-top" alt="${item.name}">
-  
+                    <img src="${image}" class="card-img-top" alt="${item.name}">  
                     <div class="card-body">
                       <h5 class="card-title">${item.name}</h5>
                       <p class="card-text">${item.description}</p>
